@@ -67,7 +67,7 @@ window.onresize = () => {
 };
 
 window.onscroll = () => {
-  menuBar.classList.toggle("active");
+  menuBar.classList.remove("active");
   mobileMenu.classList.remove("active");
 };
 
